@@ -1,0 +1,286 @@
+body {
+    height: auto;
+    background-image: linear-gradient(rgb(0, 38, 66), black, rgb(41, 0, 46));
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia,Times,Times New Roman,serif; 
+    color: white;
+}
+
+/* Header Area */
+
+.header {
+    height: 70px;
+    background-color: black;
+    text-align: right;
+    padding-right: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-style: solid;
+    position: relative;
+}
+
+.header-button-row {
+    position: absolute;
+    top: 45px;
+    left: 50px;
+}
+
+.header-button {
+    padding: 10px;
+    margin-right: 20px;
+    background-color: rgba(0, 0, 0, 1);
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+    border-radius: 30px;
+    color: white;
+}
+
+/* Top Area */
+
+.flex-row-container {
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse; */
+}
+
+.flex-column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex-center {
+    justify-content: center;
+}
+
+.top-area {
+    margin-top: 70px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10%;
+}
+
+.purple-textbox {
+    background-image: linear-gradient(rgba(55, 0, 79,1),rgba(255,0,0,0));
+    position: relative;
+    padding: 20px;
+}
+
+.top-border {
+    content: "";
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 25%;
+    width: 50%;
+    height: 3px;
+}
+
+.my-name{
+    font-size: 65px;
+    margin-bottom: 40px;
+}
+
+.top-bio {
+    font-size: 35px;
+}
+
+.blue {
+    color: rgb(19, 105, 218);
+}
+
+.my-image-border {
+    content: "";
+    height: 450px;
+    width: 313px;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    position: relative;
+    overflow: visible;
+    margin-left: 20%;
+}
+
+.my-image {
+    content: "";
+    background-image: url("../Images/tadano.jpg");
+    background-size: cover;
+    height: 450px;
+    width: 313px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+/* Middle Area 1 */
+
+.middle-area-1 {
+    content: "";
+    background-image: url("../Images/wall3.jpg");
+    height: 800px;
+    /* opacity: 0.4; */
+    padding: 10% 20% 10% 20%;
+}
+
+.middle-headline-1 {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.skill-button {
+    /* background-color: rgba(19, 105, 218 ,0); */
+    border: solid;
+    border-color: white;
+    border-width: 3px;
+    color: white;
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding: 5px 20px 5px 20px;
+}
+
+.left-rounded {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.right-rounded {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.purple-textbox-2 {
+    background-image: linear-gradient(rgba(55, 0, 79,1),rgba(55,0,79,0.9),rgba(55,0,79,0.7),rgba(55,0,79,0.5));
+    position: relative;
+    padding: 20px;
+}
+
+.triangular-bullet {
+    font-size: 25px;
+}
+
+.skills {
+    font-size: 25px;
+    margin-left: 5px;
+}
+
+.right-border {
+    border-right: solid;
+    border-width: 3px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.hide {
+    display: none;
+}
+
+blue-bg {
+    background-color: rgba(19, 105, 218,1);
+}
+
+transparent-bg {
+    background-color: rgba(255,0,0,0);
+}
+
+/* Middle Area 2 */
+
+.middle-area-2 {
+    content: "";
+    height: 780px;
+}
+
+.middle-headline-2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.blue-textbox {
+    background-image: linear-gradient(rgb(1, 56, 128),rgba(255,0,0,0));
+    position: relative;
+    padding: 30px;
+    margin: 30px 10% 30px 10%;
+}
+
+.project-arrow-button {
+    background-color: rgba(255,0,0,0);
+    border: solid;
+    border-width: 3px;
+    border-color: white;
+    color: white;
+    font-size: 50px;
+    padding: 5px;
+    height: 100px;
+    margin-top: 15%;
+}
+
+.project-window {
+    background-color: rgba(255,0,0,0);
+    background-image: url("../Images/project_border.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 54px;
+    padding-left: 40px;
+}
+
+.project-healine-1 {
+    margin-bottom: 10%;
+}
+
+.project-info {
+    color: rgb(221, 221, 221);
+}
+
+.project-images-portrait {
+    height: 300px;
+    width: 135px;
+    margin-left: 20px;
+}
+
+.project-images-landscape {
+    height: 135px;
+    width: 300px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 30px;
+    margin-right: 100px;
+}
+
+/* Bottom Area */
+
+.bottom-area {
+    content: "";
+    background-color: black;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.bottom-area-headline {
+    font-weight: bold;
+}
+
+.bottom-border {
+    content: "";
+    background-color: white;
+    height: 3px;
+    width: 150px;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
